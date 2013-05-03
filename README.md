@@ -10,15 +10,15 @@ Given the following JSON document:
 {
   "oregon": {
     "cities": ["portland", "salem", "eugene"],
-    "capital": "salem"
+    "capitol": "salem"
   },
   "california": {
     "cities": ["san francisco", "los angeles", "san jose", "sacramento"],
-    "capital": "sacramento"
+    "capitol": "sacramento"
   },
   "washington": {
     "cities": ["tacoma", "seattle", "olympia"],
-    "capital": "olympia"
+    "capitol": "olympia"
   }
 }
 ```
@@ -27,15 +27,15 @@ Given the following JSON document:
 
 ```
 $ slicer oregon states.json
-{ "cities": ["portland", "salem", "eugene"], "capital": "salem" }
+{ "cities": ["portland", "salem", "eugene"], "capitol": "salem" }
 
 $ slicer oregon.cities cities.json
 ["portland", "salem", "eugene"]
 
-$ slicer oregon.capital cities.json
+$ slicer oregon.capitol cities.json
 salem
 
-$ slicer florida.capital
+$ slicer florida.capitol
 <no output>
 
 $ slicer 'oregon.cities[1]' cities.json
