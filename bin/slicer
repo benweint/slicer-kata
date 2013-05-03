@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require 'json'
+require 'slicer'
+
+if ARGV.size != 2
+  $stderr.puts "Usage: slicer <query> <json file>"
+  exit(1)
+end
+
+query = ARGV[0]
+path = ARGV[1]
+json = JSON.parse(File.read(path))
+
+puts Slicer.slice(query, json).to_json

@@ -1,0 +1,14 @@
+{
+  "oregon": {
+    "cities": ["portland", "salem", "eugene"],
+    "capital": "salem"
+  },
+  "california": {
+    "cities": ["san francisco", "los angeles", "san jose", "sacramento"],
+    "capital": "sacramento"
+  },
+  "washington": {
+    "cities": ["tacoma", "seattle", "olympia"],
+    "capital": "olympia"
+  }
+}
