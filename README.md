@@ -36,7 +36,7 @@ $ slicer oregon.capitol cities.json
 salem
 
 $ slicer florida.capitol
-<no output>
+null
 
 $ slicer 'oregon.cities[1]' cities.json
 salem
