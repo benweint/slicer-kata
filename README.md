@@ -26,7 +26,7 @@ Given the following JSON document:
 ... `slicer` lets you do things like:
 
 ```
-$ slicer oregon states.json
+$ slicer oregon cities.json
 { "cities": ["portland", "salem", "eugene"], "capitol": "salem" }
 
 $ slicer oregon.cities cities.json
